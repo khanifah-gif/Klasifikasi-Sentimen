@@ -15,6 +15,7 @@ import nltk
 from importlib import reload
 import logistic_regression
 reload(logistic_regression)
+from logistic_regression import LogisticRegression
 from nltk.tokenize import word_tokenize
 from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
 from collections import Counter
