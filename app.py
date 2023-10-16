@@ -7,7 +7,6 @@ from flask.helpers import _endpoint_from_view_func
 from flask_restplus import Api, Resource, fields
 import pandas as pd
 import numpy as np
-from sklearn.feature_extraction.text import TfidfVectorizer
 import joblib
 import re
 import demoji
